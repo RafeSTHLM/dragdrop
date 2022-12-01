@@ -1,0 +1,52 @@
+body {
+    background-color: yellow;
+}
+
+.dd-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.dd-drop-targets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 20px 0;
+}
+
+.dd-box {
+    height: 150px;
+    width: 150px;
+    border: solid 3px #ccc;
+    margin: 10px;
+
+    /* align items in the box */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.dd-drag-over {
+    border: dashed 3px red;
+}
+
+.dd-item {
+    height: 75px;
+    width: 75px;
+    background-color: #F0DB4F;
+
+}
+
+.dd-hide {
+    display: none;
+}
